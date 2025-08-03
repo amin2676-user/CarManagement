@@ -10,6 +10,7 @@ namespace async
 {
     public static class Exts
     {
+        int a = 10;
         public static bool IsNotNullOrEmpty(this string? text) {
             if (text != null && text.Length > 0)
             {
